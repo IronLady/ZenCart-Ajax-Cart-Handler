@@ -2,7 +2,7 @@ ZenCart Ajax Cart Handler
 =========
 NOTICE : This is an experimental code, don't use this code on live site.
 
-This handler utilizing a great contribution from [Kuroi - Zen Cart Ajax Handler] for the ajax handler and Native Zen Cart Observer Class to listen on some shopping cart event.
+This handler is using a great contribution from [Kuroi - Zen Cart Ajax Handler] for the ajax handler and Native Zen Cart Observer Class to listen on some shopping cart event.
 
 Installation
 ----
