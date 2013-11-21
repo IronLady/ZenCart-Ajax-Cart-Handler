@@ -2,7 +2,7 @@ ZenCart Ajax Cart Handler
 =========
 NOTICE : This is an experimental code, don't use this code on live site.
 
-This handler utilizing a great contribution for [Kuroi - Zen Cart Ajax Handler] for the ajax handler and Native Zen Cart Observer Class to listen on some shopping cart event.
+This handler utilizing a great contribution from [Kuroi - Zen Cart Ajax Handler] for the ajax handler and Native Zen Cart Observer Class to listen on some shopping cart event.
 
 Installation
 ----
@@ -10,7 +10,7 @@ Just bring the code on your Zen Cart installation, no core files modified. Unles
 
 Usage
 -----------
-Because It's AJAX so It's rely on javascript to make the HTTP Request. This is an example code using jQuery that listening on "Add to Cart" button on product info page.
+It's AJAX so It's rely on javascript to make the HTTP Request. This is an example code using jQuery that listening on "Add to Cart" button on product info page.
 
 ```js
 jQuery(document).ready(function(){
@@ -32,7 +32,7 @@ jQuery(document).ready(function(){
 });
 ```
 
-The JSON data contain JSON version of $_SESSION['cart'] object. You can view the response from your browser console. 
+The JSON data contain JSON version of $_SESSION['cart'] PHP object. You can view the response from your browser console. 
 
   [Kuroi - Zen Cart Ajax Handler]: https://github.com/kuroi/Zen-Cart-Ajax-Handler
   
