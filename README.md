@@ -24,7 +24,7 @@ jQuery(document).ready(function(){
       data: data,
       success: function(data){
         jQuery.post('ajax.php', 'handler=ajax_cart',function(response){
-          console.log(response);
+          //console.log(response);
         },'json');
       }
     });
